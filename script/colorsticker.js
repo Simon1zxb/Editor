@@ -55,8 +55,6 @@
 			addingBtn.appendChild(document.createTextNode('N'));
 			document.getElementsByTagName('body')[0].appendChild(addingBtn);
 			$(addingBtn).on('click', this, this._createSticker);
-			console.log(addingBtn);
-
 		},
 		_createSticker : function(event){
 			var Sticker = event.data;
